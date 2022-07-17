@@ -1,0 +1,30 @@
+To {{ recipient }}
+
+My name is Long Le. I have been living in Syndey for almost four years and 
+am planning to move to Perth thus I'm looking for a new job in the city. I recently
+saw {{ company }} open {{ title }} on Linkedin and I am very interested in 
+the opportunity. I believe the position will be a good step moving forward.
+
+I have worked with AWS, Python, Snowflake and Tableau at my current 
+position as Data Developer at CoreLogic since 2021. My experiences focus on developing 
+ETL pipelines using Event-Driven Architecture with AWS technologies including
+Lambda, SNS, SQS, S3 Bucket, DynamoDB, Cloud Formation, etc. In addition
+to that, I also work extensively in data analysis with Snowflakes as well as
+data visualisation with Tableau.
+
+On the other hand, traditional software engineering is also my strong suit and 
+I worked for more than three years as Django/Python developer at Gooesoft. I have 
+comprehensive experience as well as knowledge with the framework as well as 
+developing RESTful API.
+
+Finally, I also worked on the side with Google Cloud's Firebase. The project is about
+implementing an integrator/connector between platforms with webhooks and API. The main
+idea of the project was to use Event-Driven Architecture and leverage the cloud to 
+simplify and minimise infrastructure and complexity.
+
+I hope I have presented myself as a qualified and suite candidate for the position. 
+Please contact me, if you require any further information or have other questions 
+for me. Thank you for your consideration. 
+
+Best regards,
+Long
