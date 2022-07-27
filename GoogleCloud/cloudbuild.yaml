@@ -1,0 +1,26 @@
+steps:
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  args:
+  - gcloud
+  - functions
+  - deploy
+  - hello-world
+  - --entry-point=hello_http
+  - --region=australia-southeast1
+  - --source=./functions/
+  - --trigger-http
+  - --runtime=python37
+  - --set-env-vars=[ENV=TEST-2,STATUS=WIP]
+
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  args:
+  - gcloud
+  - functions
+  - deploy
+  - bye-bye-world
+  - --entry-point=bye_bye_http
+  - --region=australia-southeast1
+  - --source=./functions/ByeByeApp/
+  - --trigger-http
+  - --runtime=python37
+  - --set-env-vars=[ENV=TEST-2,STATUS=WIP]
